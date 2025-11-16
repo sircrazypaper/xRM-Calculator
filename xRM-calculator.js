@@ -3,6 +3,7 @@ let oneRM = 0;
 let multiplier = 1;
 
 function calculator(){
+  event.preventDefault();
   //setup
   let inputWeight = document.getElementById('weight').value;
   let inputReps = document.getElementById('reps').value;
@@ -47,4 +48,18 @@ function calculator(){
   let tenRM = oneRM * 0.75;
   let elevenRM = oneRM * 0.725;
   let twelveRM = oneRM * 0.7;
+
+  //display stats in html
+  document.getElementById("1rm").innerHTML = "1RM = " + oneRM;
+  document.getElementById("2rm").innerHTML = "2RM = " + twoRM;
+  document.getElementById("3rm").innerHTML = "3RM = " + threeRM;
+  document.getElementById("4rm").innerHTML = "4RM = " + fourRM;
+  document.getElementById("5rm").innerHTML = "5RM = " + fiveRM;
+  document.getElementById("6rm").innerHTML = "6RM = " + sixRM;
+  document.getElementById("7rm").innerHTML = "7RM = " + sevenRM;
+  document.getElementById("8rm").innerHTML = "8RM = " + eightRM;
+  document.getElementById("9rm").innerHTML = "9RM = " + nineRM;
+  document.getElementById("10rm").innerHTML = "10RM = " + tenRM;
+  document.getElementById("11rm").innerHTML = "11RM = " + elevenRM;
+  document.getElementById("12rm").innerHTML = "12RM = " + twelveRM;
 }
