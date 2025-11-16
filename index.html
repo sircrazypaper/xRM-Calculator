@@ -12,16 +12,17 @@
 <h1>Training app</h1>
 
 <div class="container">
-  <form class="" action="xRM-calculator.js">
+  <form class="" onsubmit="return calculator();">
     <label for="weight">Weight:</label><br>
     <input id="weight" type="number"><br>
     <label for="reps">Reps:</label><br>
     <input id="reps" type="number"><br>
     <input type="submit" value="Submit">
-  </form>
+  </form><br>
+  <p id='display'></p>
 
 </div>
 
-<script src="./app.js"></script>
+<script src="./xRM-calculator.js"></script>
 </body>
 </html>
