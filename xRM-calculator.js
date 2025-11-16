@@ -1,20 +1,15 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training app</title>
-    <link rel="stylesheet" href="./style.css">
+let oneRM = 0;
+let twoRM = 0;
+let threeRM = 0;
+let fourRM = 0;
+let fiveRM = 0;
+let sixRM = 0;
+let sevenRM = 0;
+let eightRM = 0;
+let nineRM = 0;
+let tenRM = 0;
+let elevenRM = 0;
+let twelveRM = 0;
 
-    <script src="./dexie.min.js"></script>
-</head>
-<body>
-<h1>Training app</h1>
-
-<div class="container">
-    
-</div>
-
-<script src="./app.js"></script>
-</body>
-</html>
+let inputWeight = 0;
+let inputReps = 0;
