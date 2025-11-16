@@ -35,4 +35,16 @@ function calculator(){
   }
 
   //set xRM
+  oneRM = oneRM
+  let twoRM = oneRM * 0.975;
+  let threeRM = oneRM * 0.95;
+  let fourRM = oneRM * 0.925;
+  let fiveRM = oneRM * 0.9
+  let sixRM = oneRM * 0.85;
+  let sevenRM = oneRM * 0.825;
+  let eightRM = oneRM * 0.8;
+  let nineRM = oneRM * 0.775;
+  let tenRM = oneRM * 0.75;
+  let elevenRM = oneRM * 0.725;
+  let twelveRM = oneRM * 0.7;
 }
