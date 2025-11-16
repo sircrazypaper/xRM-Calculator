@@ -1,39 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Training app</title>
-    <link rel="stylesheet" href="./style.css">
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
 
-    <script src="./dexie.min.js"></script>
-</head>
-<body>
-<h1>Training app</h1>
+body{
+  font-family: "Titan One", sans-serif;
+  background-color: #FFF8D4;
+  color:#313647;
+}
 
-<div class="container">
-  <form class="" onsubmit="return calculator();">
-    <label for="weight">Weight:</label><br>
-    <input id="weight" min="1" type="number"><br>
-    <label for="reps">Reps:</label><br>
-    <input id="reps" max="12" min="1" type="number"><br>
-    <input type="submit" value="Submit">
-  </form><br>
-  <p id='1rm'>1RM=</p>
-  <p id='2rm'>2RM=</p>
-  <p id='3rm'>3RM=</p>
-  <p id='4rm'>4RM=</p>
-  <p id='5rm'>5RM=</p>
-  <p id='6rm'>6RM=</p>
-  <p id='7rm'>7RM=</p>
-  <p id='8rm'>8RM=</p>
-  <p id='9rm'>9RM=</p>
-  <p id='10rm'>10RM=</p>
-  <p id='11rm'>11RM=</p>
-  <p id='12rm'>12RM=</p>
+.container{
+  margin: auto;
+  width: 75%;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
+}
 
-</div>
+h1{
+  font-size: 4vw;
+}
 
-<script src="./xRM-calculator.js"></script>
-</body>
-</html>
+input {
+  width: 5%;
+  font-family: "Titan One", sans-serif;
+  font-size: 1.5vw;
+  background-color: #FFF8D4;
+  border: 2px solid #A3B087;
+  border-radius: .2rem;
+  color:#313647;
+}
+
+label{
+  font-size: 1.5vw;
+}
+
+#submit{
+  margin-top: 2vh;
+  width: 10%;
+  color: #313647;
+  background-color: #A3B087;
+  padding: 0.2em, 0.4em;
+  border: 2px solid #A3B087;
+  border-radius: .2rem;
+}
+
+#submit:hover{
+  border: 2px solid #435663;
+}
+
+p{
+  font-size: 1.25vw;
+}
